@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main',
+                git branch: 'dev',
                 url: 'https://github.com/rspacepointe-collab/nexjs-app-with-docker-jenkins-ci-cd.git'
             }
         }
